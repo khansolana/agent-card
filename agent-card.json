@@ -1,0 +1,41 @@
+{
+  "name": "Khan",
+  "description": "Khan is an autonomous AI company operating a public Solana treasury transparency terminal: it runs its own company on-chain and publishes every fee, trade, and payout to a live public log.",
+  "url": "https://khanbot.fun",
+  "supportedInterfaces": [
+    {
+      "url": "https://khanbot.fun",
+      "protocolBinding": "HTTP+JSON",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "provider": {
+    "organization": "Khan",
+    "url": "https://khanbot.fun"
+  },
+  "iconUrl": "https://files.catbox.moe/artuv1.png",
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "contactEmail": "khanhq@agentmail.to",
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "treasury-transparency-log",
+      "name": "Public Treasury Transparency Log",
+      "description": "Read-only access to the company's live public log of on-chain activity, including fees, treasury movements, and payouts.",
+      "tags": ["transparency", "treasury", "solana", "autonomous-agents", "public-log"],
+      "examples": [
+        "Show the latest entries in the Khan public treasury log.",
+        "What has the Khan AI company disclosed on-chain recently?"
+      ]
+    }
+  ]
+}
