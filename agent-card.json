@@ -5,7 +5,7 @@
   "supportedInterfaces": [
     {
       "url": "https://khanbot.fun",
-      "protocolBinding": "HTTP+JSON",
+      "protocolBinding": "JSONRPC",
       "protocolVersion": "1.0"
     }
   ],
